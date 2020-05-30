@@ -1,13 +1,14 @@
-body
+body {
   font-size: 14px;
 }
-
+/* This will be at the top */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
 
 section {
@@ -16,21 +17,35 @@ section {
 }
 
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
-
-.example, h3 {
+/*I am not sure if I fixed this css properly by leaving
+ this .example. It had a .h3 before it as well that looked
+ funny to me, and I removed it, but not sure if that was
+ the right thing to do. */
+.example {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
 h3 {
   font-size: 1.3em;
 }
 
+
+
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/* This is the assignment section to change the background color */
+h4 {
+  font-size: 1.3em;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+  background-color: pink;
+}
